@@ -6,7 +6,7 @@
 2. 下載並安裝[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 3. 在命令列上，執行heroku login
 
-步驟4-9是編寫我們的程式，並準備好佈署需要用到的檔案。
+步驟4-5是建立虛擬環境，並編寫我們的程式。
 
 4. 建立虛擬環境 (VirtualEnv)
 5. 安裝必要的套件、寫好程式、測試程式是否可運行
@@ -18,7 +18,7 @@
 8. 建立 Procfile (說明Heroku上面要怎麼執行我們的程式的設定)
 9.  建立 requirements.txt (告訴Heroku我們安裝了那些套件，以及套件的版本)
 
-步驟11-13可以直接使用Visual Studio Code來做即可！
+步驟11-13是使用git管理我們的程式 (可以直接使用Visual Studio Code來做即可！)
 
 10. 安裝 [git](https://git-scm.com/)
 11. 初始化版本管理 (git init)
